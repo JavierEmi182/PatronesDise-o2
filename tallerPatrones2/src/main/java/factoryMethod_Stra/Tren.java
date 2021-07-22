@@ -10,7 +10,8 @@ package factoryMethod_Stra;
  * @author DELL-USER
  */
 public class Tren implements Transporte{
-    private Articulo carga;
+    private Articulo[] carga;
+    private Tienda destino;
     @Override
     public void deliver() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

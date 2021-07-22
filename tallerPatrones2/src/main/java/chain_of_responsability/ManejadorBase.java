@@ -9,13 +9,11 @@ package chain_of_responsability;
  *
  * @author DELL-USER
  */
-public class ManejadorBase {
+public abstract class ManejadorBase {
     public ManejadorBase b;
     
     public void setNext(ManejadorBase m){
         
     }
-    public void manejarPedido(){
-        
-    }
+    abstract public void manejarPedido();
 }

@@ -10,7 +10,6 @@ package chain_of_responsability;
  * @author DELL-USER
  */
 public class Tecnico extends ManejadorBase{
-    public void ManejarPedido(){
-        
+    public void manejarPedido(){
+    	}
     }
-}

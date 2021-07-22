@@ -35,6 +35,4 @@ public class Articulo {
     public Estado getEstado() {
         return estado;
     }
-    
-    
 }

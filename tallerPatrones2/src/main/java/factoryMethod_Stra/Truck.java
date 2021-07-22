@@ -5,6 +5,8 @@
  */
 package factoryMethod_Stra;
 
+import Iterator.Articulo;
+
 /**
  *
  * @author DELL-USER
@@ -14,7 +16,7 @@ public class Truck implements Transporte{
     private Tienda destino;
     @Override
     public void deliver() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //implementacion
     }
     
 }

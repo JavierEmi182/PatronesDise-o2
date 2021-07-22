@@ -5,18 +5,10 @@
  */
 package factoryMethod_Stra;
 
-import Iterator.Articulo;
-
 /**
  *
- * @author DELL-USER
+ * @author Javier
  */
-public class Bicicleta implements Transporte{
-    private Articulo[] carga;
-    private Tienda destino; 
-    @Override
-    public void deliver() {
-        //implementacion
-    }
+public class Tienda {
     
 }
